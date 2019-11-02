@@ -3,12 +3,6 @@ import java.util.*;
 import stdlib.StdOut;
 
 public class LinkedList {
-	
-	/* 1) Count number of nodes by traversing the list.
-	 * 2) Traverse the list again and select every node with probability 1/N. The selection can be done 
-	 * by generating a random number from 0 to N-i for i’th node, and selecting the i’th node node only 
-	 * if generated number is equal to 0 (or any other fixed number from 0 to N-i).
-	 */
 	static Node head;	// head of list
 	
 	/* Node class */
